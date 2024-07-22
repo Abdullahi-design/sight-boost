@@ -44,7 +44,7 @@ export default function About() {
                     <p className="mt-4 text-lg font-light">
                     Sight Boost Clinic Is the Official eye Clinic of Sight Boost Nigeria Initiative. It is located in the premises of An Noury Specialist Hospital at No. 1 Iyaka Link, Kano. It is aimed at Providing subsidized primary eye care Services to the people kano and environs. Those living outside kano metropolitan areas are not left out through provision of mobile clinics and use of an official shuttle bus to convey patients to the clinic whenever necessary. The is for mow particularly focused on blindness and visual impairment caused by cataract, glaucoma and uncorrected refractive errors.
                     </p>
-                </div>
+                </div> 
             </div>
 
             <h1 className="text-4xl font-thin text-teal-900 mt-24">Our Members</h1>
