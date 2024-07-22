@@ -58,7 +58,7 @@ export default function Staff() {
           It was an game changer. At SightBoost I got access to advanced tools
           and machines that make my work easier and far much accurate.
         </p>
-        <p className="text-right font-semibold mt-2">-Dr. AbdulBasit</p>
+        <p className="text-right font-semibold mt-2">-Dr. Muzammil Bala</p>
         <p className="text-right">-Optician</p>
       </div>
     </section>

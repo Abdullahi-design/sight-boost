@@ -20,7 +20,6 @@ function openImage (url: string) {
     setIsOpen(true)
 }
 
-
   const fetchImages = async () => {
     try {
     const response = await fetch("/api/images");
@@ -47,10 +46,7 @@ function openImage (url: string) {
     }
     acc[image.imageCategory].push(image);
     return acc;
-  }, {});
-
-  console.log(groupedImages, "grouped images");
-  
+  }, {});  
 
   return (
     <div className="  bg-gradient-to-br from-teal-900 via-black to-teal-900 -mt-12 pt-8 min-h-screen">

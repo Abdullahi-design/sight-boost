@@ -44,21 +44,25 @@ export default function About() {
                     <p className="mt-4 text-lg font-light">
                     Sight Boost Clinic Is the Official eye Clinic of Sight Boost Nigeria Initiative. It is located in the premises of An Noury Specialist Hospital at No. 1 Iyaka Link, Kano. It is aimed at Providing subsidized primary eye care Services to the people kano and environs. Those living outside kano metropolitan areas are not left out through provision of mobile clinics and use of an official shuttle bus to convey patients to the clinic whenever necessary. The is for mow particularly focused on blindness and visual impairment caused by cataract, glaucoma and uncorrected refractive errors.
                     </p>
-                </div>
+                </div> 
             </div>
 
             <h1 className="text-4xl font-thin text-teal-900 mt-24">Our Members</h1>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 mt-8">
-                    <div className="col-span-1">
-                        <div className="w-full h-56 relative rounded-t-2xl bg-gradient-to-t from-black to-teal-900">
-                            <Image src={user} alt="image" fill className='object-contain' />
-                        </div>
-                        <div className="bg-black text-white p-4 rounded-b-2xl">
-                            <h1 className=' text-xl'>Dr Jade Butera</h1>
-                            <h1 className='font-light text-sm'>Senior Consultant</h1>
-                        </div>
-                    </div>
+                    { [1].map((item ,index)=> {
+                        return (
+                            <div key={index} className="col-span-1">
+                                <div className="w-full h-56 relative rounded-t-2xl bg-gradient-to-t from-black to-teal-900">
+                                    <Image src={user} alt="image" fill className='object-contain' />
+                                </div>
+                                <div className="bg-black text-white p-4 rounded-b-2xl">
+                                    <h1 className=' text-xl'>Dr Anas</h1>
+                                    <h1 className='font-light text-sm'>Senior Consultant</h1>
+                                </div>
+                            </div>
+                        )
+                    }) }
                     
                 </div>
 

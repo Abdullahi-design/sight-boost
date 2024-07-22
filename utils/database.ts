@@ -10,7 +10,6 @@ export const connectToDB = async (): Promise<void> => {
     await mongoose.connect(process.env.MONGODB_URI as string, {
       dbName: 'sight-boost',
       useNewUrlParser: true,
-      useUnifiedTopology: true,
     } as mongoose.ConnectOptions);
 
     console.log('MongoDB connected');
