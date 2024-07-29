@@ -3,6 +3,7 @@ import facebook from '../../../public/svg/facebook.svg'
 import twitter from '../../../public/svg/twitter.svg'
 import instagram from '../../../public/svg/insta.svg'
 import youtube from '../../../public/svg/youtube.svg'
+import tictok from '../../../public/svg/tictok.svg'
 import Image from 'next/image'
 
 export default function Social() {
@@ -20,8 +21,11 @@ export default function Social() {
         <a href='https://instagram.com' className="relative size-24 flex flex-col justify-center">
           <Image src={instagram} fill alt="icon" />
         </a>
-        <a href='https://youtube.com' className="relative size-24 flex flex-col justify-center">
+        <a href='https://youtube.com/@SightBoost' className="relative size-24 flex flex-col justify-center">
           <Image src={youtube} fill alt="icon" />
+        </a>
+        <a href='https://www.tiktok.com/@sightboost?is_from_webapp=1&sender_device=pc' className="relative size-24 flex flex-col justify-center">
+          <Image src={tictok} fill alt="icon" />
         </a>
       </div>
     </section>
